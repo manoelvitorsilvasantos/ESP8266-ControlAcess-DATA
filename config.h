@@ -5,19 +5,19 @@
 #include <ESP8266WiFi.h>
 
 //ACESS POINT
-#define AP_SSID "IOT-ESP8266"
-#define AP_PASS "susej_65564747"
-#define AP_MAX_CONN 8
-#define AP_HIDDEN false
-#define AP_CHANNEL 1
+#define AP_SSID "IOT-ESP8266" //NAME ACESS POINT SSID
+#define AP_PASS "<YOUR-PASSWORD>" //YOUR PASSWORD
+#define AP_MAX_CONN 8 //DEFAULT 4 - NUMBERS CLIENTS CONNECTED
+#define AP_HIDDEN false // FALSE NOT HIDDEN, TRUE HIDDEN
+#define AP_CHANNEL 1 //NUMBER OF CHANNEL OF WIFI
 
 
-IPAddress local_ip(10,0,0,1);
-IPAddress gateway(10,0,0,0);
-IPAddress subnet(255,255,255,0);
+IPAddress local_ip(10,0,0,1); //IP LOCAL ACESS POINT 
+IPAddress gateway(10,0,0,0); //GATEWAY IP ACESS POINT
+IPAddress subnet(255,255,255,0); //SUBNET YOUR ACESS POINT
 
 //WIFI
-#define WIFI_SSID "BRADESCO"
-#define WIFI_PASS "leonam65564747"
+#define WIFI_SSID "<YOUR-SSID>"
+#define WIFI_PASS "<YOUR-PASSWORD>"
 
 #endif
