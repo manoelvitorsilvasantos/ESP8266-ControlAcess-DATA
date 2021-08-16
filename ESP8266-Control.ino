@@ -67,7 +67,11 @@ void login(){
     return;
   }
 
-  if(server.arg("username") == "mvictor" && server.arg("password") == "susej_65564747" ){
+  /*
+   user = administrador
+   pass = password
+  */
+  if(server.arg("username") == "administrador" && server.arg("password") == "password" ){
     homepage();
   }
   else{
